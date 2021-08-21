@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap');
+
+
 *{
-    background-color: aqua;
+    font-family: 'Lato', sans-serif;
+    background-color: red;
 }
