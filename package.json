@@ -12,11 +12,19 @@
   "dependencies": {
     "axios": "^0.21.1",
     "body-parser": "^1.19.0",
+    "browser-sync": "^2.27.5",
+    "browser-sync-webpack-plugin": "^2.3.0",
     "dotenv": "^10.0.0",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
     "mongoose": "^5.13.7",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.12"
+  },
+  "devDependencies": {
+    "laravel-mix": "^6.0.28",
+    "resolve-url-loader": "^4.0.0",
+    "sass": "^1.38.0",
+    "sass-loader": "^12.1.0"
   }
 }
