@@ -52,3 +52,7 @@ section.btn {
 .btn-primary:hover {
   background: #b23301;
 }
+
+.bg-footer {
+  background: #222e3a;
+}
