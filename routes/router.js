@@ -10,7 +10,8 @@ function initRoutes(app){
     app.get('/signup', authController().signup)
 
     //Customers
-    app.get('/cart', cartController().cart)
+    app.get('/cart', cartController().index)
+    app.post('/update-cart', cartController().update)
    
 }
 
